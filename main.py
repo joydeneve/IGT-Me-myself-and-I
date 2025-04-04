@@ -7,14 +7,14 @@
 # Effort cost: time/energy of making a high-effort plan
 
 # Costs and conversions
-parent_cost_gbp = 7000  # Total parent cost to support a year abroad
-student_serious_benefit_gbp = 30000  # Estimated lifetime benefit from year abroad for serious student
-student_flaky_benefit_gbp = 5000     # Estimated benefit for flaky student
+parent_cost_gbp = 10000  # Total parent cost to support a year abroad
+student_serious_benefit_gbp = 50000  # Estimated lifetime benefit from year abroad for serious student
+student_flaky_benefit_gbp = 10000     # Estimated benefit for flaky student
 effort_cost_serious = 500            # Cost of preparing a high-effort plan for serious
 effort_cost_flaky = 1500             # Cost of preparing a high-effort plan for flaky
 
-# Parent emotional values (can be adjusted)
-parent_happiness_if_serious_supported = 8000  # Value from seeing child succeed
+# Parent emotional values
+parent_happiness_if_serious_supported = 10000  # Value from seeing child succeed
 parent_disappointment_if_flaky_supported = -5000
 parent_regret_if_serious_not_supported = -6000
 parent_relief_if_flaky_not_supported = 2000
