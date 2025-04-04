@@ -1,10 +1,7 @@
 
-# Let's compute the payoffs using actual estimated financial data
-# We will calculate student and parent payoffs for each outcome based on monetary costs and benefits.
-
 # Assumptions:
-# Student benefit (serious): improved career earnings etc.
-# Student benefit (flaky): travel enjoyment, minor academic value
+# Student benefit (serious type): improved career earnings etc.
+# Student benefit (flaky type): travel enjoyment, minor academic value
 # Parent cost: financial cost of supporting year abroad
 # Emotional payoffs: included as estimates
 # Effort cost: time/energy of making a high-effort plan
