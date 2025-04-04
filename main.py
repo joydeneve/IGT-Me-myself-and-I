@@ -65,3 +65,5 @@ import pandas as pd
 
 payoffs_df = pd.DataFrame(compute_payoffs())
 print(payoffs_df)
+payoffs_df.to_csv("payoff_results.csv", index=False)
+print("Results saved to payoff_results.csv ✅")
