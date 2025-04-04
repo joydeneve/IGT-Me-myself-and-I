@@ -1,0 +1,9 @@
+Student Type,Signal,Parent Action,Student Payoff (GBP),Parent Payoff (GBP)
+Serious,H,S,29500,1000
+Serious,H,N,-500,-6000
+Serious,L,S,30000,1000
+Serious,L,N,0,-6000
+Flaky,H,S,3500,-12000
+Flaky,H,N,-1500,2000
+Flaky,L,S,5000,-12000
+Flaky,L,N,0,2000
