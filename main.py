@@ -1,7 +1,3 @@
-
-# Let's compute the payoffs using actual estimated financial data
-# We will calculate student and parent payoffs for each outcome based on monetary costs and benefits.
-
 # Assumptions:
 # Student benefit (serious): improved career earnings etc.
 # Student benefit (flaky): travel enjoyment, minor academic value
