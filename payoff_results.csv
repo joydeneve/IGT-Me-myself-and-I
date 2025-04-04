@@ -1,4 +1,4 @@
-Student Type,Signal,Parent Action,Student Payoff (GBP),Parent Payoff (GBP)
+Student Type,Signal,Parent Action,Student Payoff (k GBP),Parent Payoff (k GBP)
 Serious,H,S,29.5,1.0
 Serious,H,N,-0.5,-6.0
 Serious,L,S,30.0,1.0

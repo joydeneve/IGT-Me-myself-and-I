@@ -71,6 +71,12 @@ payoffs_df = pd.DataFrame(compute_payoffs())
 payoffs_df['Student Payoff (GBP)'] = payoffs_df['Student Payoff (GBP)'] / 1000
 payoffs_df['Parent Payoff (GBP)'] = payoffs_df['Parent Payoff (GBP)'] / 1000
 
+# Rename columns
+payoffs_df.rename(columns={
+    'Student Payoff (GBP)': 'Student Payoff (k GBP)',
+    'Parent Payoff (GBP)': 'Parent Payoff (k GBP)'
+}, inplace=True)
+
 print(payoffs_df)
 payoffs_df.to_csv("payoff_results.csv", index=False)
 print("Results saved to payoff_results.csv ✅")
