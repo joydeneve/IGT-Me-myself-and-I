@@ -1,3 +1,7 @@
+
+# Let's compute the payoffs using actual estimated financial data
+# We will calculate student and parent payoffs for each outcome based on monetary costs and benefits.
+
 # Assumptions:
 # Student benefit (serious): improved career earnings etc.
 # Student benefit (flaky): travel enjoyment, minor academic value
@@ -64,6 +68,9 @@ def compute_payoffs():
 import pandas as pd
 
 payoffs_df = pd.DataFrame(compute_payoffs())
+payoffs_df['Student Payoff (GBP)'] = payoffs_df['Student Payoff (GBP)'] / 1000
+payoffs_df['Parent Payoff (GBP)'] = payoffs_df['Parent Payoff (GBP)'] / 1000
+
 print(payoffs_df)
 payoffs_df.to_csv("payoff_results.csv", index=False)
 print("Results saved to payoff_results.csv ✅")
